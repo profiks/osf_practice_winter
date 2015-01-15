@@ -6,3 +6,96 @@
 	Author URI: Your web address
     Tags: Tags to locate your theme in the WordPress theme repository
 */
+
+body {
+    background: url(/assets/img/underwater-28285.jpg) no-repeat;
+                background-position: center center;
+                background-attachment: fixed;
+                background-size: cover;
+    color: rgba(255,255,255,255);
+}
+
+h1,h3,h4{
+    color: rgba(255,255,255,255);
+}
+.current-menu-item a {
+     background: #1cc7ff;
+}
+
+
+.slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+.rounded {
+
+
+    border:solid 3px #f0f0f0;
+    width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+
+
+}
+form, label{
+    color:#fff;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+p code{
+   display: none;
+}
+
+.wpcf7-submit {
+    background-color: #008cba;
+    border-color: #007095;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    padding: 1rem 2rem 1.0625rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 300ms ease-out 0s;
+}
+
+.wpcf7-submit:hover{
+    background-color: #007095;
+}
