@@ -9,10 +9,10 @@
       <div class="row">
         <div id="slides" class="large-12 columns">
           
-    <img src="/assets/img/example-slide-1.jpg">
-    <img src="/assets/img/example-slide-2.jpg">
-    <img src="/assets/img/example-slide-3.jpg">
-    <img src="/assets/img/example-slide-4.jpg">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/example-slide-1.jpg">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/example-slide-2.jpg">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/example-slide-3.jpg">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/example-slide-4.jpg">
           
         </div>
       </div>

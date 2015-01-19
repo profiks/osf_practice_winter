@@ -38,7 +38,7 @@
           
         </div>
         <div class="large-4 columns">
-          <img src="/assets/img/avatar.jpg" class="rounded">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/avatar.jpg" class="rounded">
         </div>
       </div>
       

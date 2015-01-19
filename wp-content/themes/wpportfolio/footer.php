@@ -15,11 +15,11 @@
           </div>
       </footer>
       
-    <script src="<?php echo get_site_url(); ?>/assets/js/vendor/modernizr.js"></script>
-    <script src="<?php echo get_site_url(); ?>/assets/js/vendor/jquery.js"></script>
-    <script src="<?php echo get_site_url(); ?>/assets/js/foundation.min.js"></script>
-    <script src="<?php echo get_site_url(); ?>/assets/js/scripts.js"></script>
-    <script src="<?php echo get_site_url(); ?>/assets/js/vendor/jquery.slides.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?> /assets/js/vendor/modernizr.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?> /assets/js/vendor/jquery.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?> /assets/js/foundation.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?> /assets/js/scripts.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?> /assets/js/vendor/jquery.slides.min.js"></script>
     
     
 </body>

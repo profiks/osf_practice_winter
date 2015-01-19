@@ -7,8 +7,9 @@
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="Denya Arkan">
     
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/assets/css/foundation.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/foundation.css" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <link rel="icon" href="http://faviconka.ru/ico/faviconka_ru_1440.ico" type="image/x-icon" />
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
